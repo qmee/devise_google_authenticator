@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
   {
     'railties' => ' >= 5.0',
     # removed the following to try and get past this bundle update not finding compatible versions for gem issue
-    # 'actionmailer' => '>= 3.0', 
+    # 'actionmailer' => '>= 3.0',
     #'actionmailer' => '~> 3.2',# '>= 3.2.12',
-    'devise' => '~> 4.4.0',
+    'devise' => '~> 4.7',
     'rotp'   => '~> 1.6'
   }.each do |lib, version|
     s.add_runtime_dependency(lib, *version)
